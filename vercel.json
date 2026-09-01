@@ -1,7 +1,6 @@
 {
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "dist/public",
-  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build:pages",
+  "outputDirectory": "./dist",
   "env": {
     "NODE_ENV": "production"
   }
